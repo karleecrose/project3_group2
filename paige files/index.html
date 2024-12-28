@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanishing Underground</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="static/js/logic.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 class="title">Vanishing Underground</h1>
+        <p>Are people missing in the caves?</p>
+    </header>
+    <main>
+        <div id="map" class="large-map"></div>
+        <section>
+            <h2>Mysteriously vanishing</h2>
+            <p>People go missing without a trace, never to be seen again. Unsolved, the missing people are left behind. Unable to be with their friends and family again. Years go by, people speculate abductions or aliens. The answer could be under our very noses.</p>
+            
+            <h3>Cave Facts</h3>
+            <ul>
+                <li>Caves cannot be more than 9,800 feet long because of rock pressure.</li>
+                <li>Active caves have water flowing through them; relict caves do not.</li>
+                <li>Groundwater naturally dissolves rock with acid over time; commonly known as karst cave.</li>
+                <li>Early humans of South Africa have dwelled in caves as far back as 180,000 years ago.</li>
+                <li>Only 1% of caves in the world have been discovered.</li>
+                <li>TAG has roughly 14,000 known caves—Tennessee, Georgia, Alabama. It used to be a shallow sea.</li>
+                <li>Some cave chambers can be as big as entire cities.</li>
+                <li>Some states have so many caves, they don’t bother with anything shorter than 30 ft (Tennessee).</li>
+            </ul>
+            <p><em>Source: softschools.com</em></p>
+
+            <h3>Ways for Caves to Form</h3>
+            <ul>
+                <li>Solutional – rainwater dissolves limestone</li>
+                <li>Corrosional – a flowing stream that contains rock erodes a passage</li>
+                <li>Faults – earthquakes offset rock, which creates chambers and passages</li>
+                <li>Glacier caves – the ice is trapped and later melts away</li>
+                <li>Sea caves – formed by sea water corrosion</li>
+            </ul>
+            <p><em>Source: 15 Cool Facts About Caves (That aren’t obvious) – startcaving.com</em></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Paige Manguiat, Karlee Crose, Jordan Graves, Shanice Cummings. All rights reserved.</p>
+    </footer>
+    <script>
+        // JavaScript for the animated text effect
+        document.addEventListener('DOMContentLoaded', function () {
+            const title = document.querySelector('.title');
+            title.classList.add('animate');
+        });
+    </script>
+</body>
+</html>
+
+
+
