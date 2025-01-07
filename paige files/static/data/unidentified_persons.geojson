@@ -1,0 +1,635 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.9671,
+                    43.0
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92a8",
+                "idFormatted": "UP4782",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "1986-08-20",
+                "description": null,
+                "state": "Wisconsin",
+                "county": "Milwaukee County",
+                "city": "Oak Creek"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.9671,
+                    43.0
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92af",
+                "idFormatted": "UP9567",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "1979-10-21",
+                "description": null,
+                "state": "Wisconsin",
+                "county": "Milwaukee County",
+                "city": "Shorewood"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.9671,
+                    43.0
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92b0",
+                "idFormatted": "UP9579",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "1970-11-16",
+                "description": null,
+                "state": "Wisconsin",
+                "county": "Milwaukee County",
+                "city": "Milwaukee"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.9671,
+                    43.0
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92b6",
+                "idFormatted": "UP7792",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "1974-05-05",
+                "description": null,
+                "state": "Wisconsin",
+                "county": "Milwaukee County",
+                "city": "Milwaukee"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.9671,
+                    43.0
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92b7",
+                "idFormatted": "UP7709",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "1998-12-04",
+                "description": null,
+                "state": "Wisconsin",
+                "county": "Milwaukee County",
+                "city": "Milwaukee"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.9671,
+                    43.0
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92b9",
+                "idFormatted": "UP9573",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "1971-02-11",
+                "description": null,
+                "state": "Wisconsin",
+                "county": "Milwaukee County",
+                "city": "Cudahy"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.9671,
+                    43.0
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92bc",
+                "idFormatted": "UP9566",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "1990-04-26",
+                "description": null,
+                "state": "Wisconsin",
+                "county": "Milwaukee County",
+                "city": "Glendale"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.9671,
+                    43.0
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92be",
+                "idFormatted": "UP7710",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "1975-07-09",
+                "description": null,
+                "state": "Wisconsin",
+                "county": "Milwaukee County",
+                "city": "Milwaukee"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.9671,
+                    43.0
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92bf",
+                "idFormatted": "UP9568",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "1973-02-24",
+                "description": null,
+                "state": "Wisconsin",
+                "county": "Milwaukee County",
+                "city": "Milwaukee"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.9671,
+                    43.0
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92c0",
+                "idFormatted": "UP9575",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "1971-09-11",
+                "description": null,
+                "state": "Wisconsin",
+                "county": "Milwaukee County",
+                "city": "Milwaukee"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.9671,
+                    43.0
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92c2",
+                "idFormatted": "UP13617",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "2014-11-14",
+                "description": null,
+                "state": "Wisconsin",
+                "county": "Milwaukee County",
+                "city": "West Allis"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.9671,
+                    43.0
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92c3",
+                "idFormatted": "UP103053",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "2023-03-06",
+                "description": "2272 North Lincoln Memorial Drive",
+                "state": "Wisconsin",
+                "county": "Milwaukee County",
+                "city": "Milwaukee"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.9671,
+                    43.0
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92c4",
+                "idFormatted": "UP7636",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "1986-11-05",
+                "description": null,
+                "state": "Wisconsin",
+                "county": "Milwaukee County",
+                "city": "Milwaukee"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.9671,
+                    43.0
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92c5",
+                "idFormatted": "UP7644",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "1981-11-26",
+                "description": null,
+                "state": "Wisconsin",
+                "county": "Milwaukee County",
+                "city": "Milwaukee"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.9671,
+                    43.0
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92c6",
+                "idFormatted": "UP71793",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "2020-06-18",
+                "description": "7400 block of North Honey Creek Parkway",
+                "state": "Wisconsin",
+                "county": "Milwaukee County",
+                "city": "Wauwatosa"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.9671,
+                    43.0
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92c9",
+                "idFormatted": "UP7640",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "1982-03-16",
+                "description": null,
+                "state": "Wisconsin",
+                "county": "Milwaukee County",
+                "city": "Milwaukee"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.9671,
+                    43.0
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92ce",
+                "idFormatted": "UP9578",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "1970-11-13",
+                "description": null,
+                "state": "Wisconsin",
+                "county": "Milwaukee County",
+                "city": "Milwaukee"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.5,
+                    46.0
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92d0",
+                "idFormatted": "UP102931",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "1950-01-01",
+                "description": null,
+                "state": "Wisconsin",
+                "county": "Vilas County",
+                "city": null
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.9671,
+                    43.0
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92d1",
+                "idFormatted": "UP16256",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "2017-01-20",
+                "description": null,
+                "state": "Wisconsin",
+                "county": "Milwaukee County",
+                "city": "Wauwatosa"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.9671,
+                    43.0
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92d5",
+                "idFormatted": "UP7715",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "1976-09-30",
+                "description": null,
+                "state": "Wisconsin",
+                "county": "Milwaukee County",
+                "city": "Milwaukee"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.5,
+                    46.0
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92d6",
+                "idFormatted": "UP124429",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "1958-10-24",
+                "description": null,
+                "state": "Wisconsin",
+                "county": "Vilas County",
+                "city": "Lac du Flambeau"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -108.0,
+                    41.6
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92d7",
+                "idFormatted": "UP115209",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "2023-11-11",
+                "description": null,
+                "state": "Wyoming",
+                "county": "Sweetwater County",
+                "city": "Wamsutter"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -110.8,
+                    43.5
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92d8",
+                "idFormatted": "UP67178",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "1998-05-12",
+                "description": null,
+                "state": "Wyoming",
+                "county": "Teton County",
+                "city": "Teton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -106.5,
+                    41.6
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92d9",
+                "idFormatted": "UP105363",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "1998-06-25",
+                "description": "T20N R89W Sec 11 & 2",
+                "state": "Wyoming",
+                "county": "Carbon County",
+                "city": "Rawlins"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -109.0,
+                    44.5
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92da",
+                "idFormatted": "UP109970",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "1996-01-20",
+                "description": "along Highway 120, near Clark, WY",
+                "state": "Wyoming",
+                "county": "Park County",
+                "city": "Clark"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.5,
+                    41.3
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92db",
+                "idFormatted": "UP131770",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "1977-04-11",
+                "description": null,
+                "state": "Wyoming",
+                "county": "Laramie County",
+                "city": "Cheyenne"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.5,
+                    41.3
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92dc",
+                "idFormatted": "UP10781",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "1988-02-28",
+                "description": null,
+                "state": "Wyoming",
+                "county": "Laramie County",
+                "city": "Cheyenne"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.5,
+                    41.3
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92dd",
+                "idFormatted": "UP121207",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "2023-11-14",
+                "description": "2700 E 5th Street",
+                "state": "Wyoming",
+                "county": "Laramie County",
+                "city": "Cheyenne"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.5,
+                    41.3
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92de",
+                "idFormatted": "UP131490",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "1996-07-13",
+                "description": "Railroad Mile Marker 470.4 Egbert Wy Laramie County",
+                "state": "Wyoming",
+                "county": "Laramie County",
+                "city": "Egbert"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -105.5,
+                    44.8
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca92df",
+                "idFormatted": "UP12121",
+                "createdDateTime": null,
+                "modifiedDateTime": null,
+                "date_found": "1995-11-11",
+                "description": null,
+                "state": "Wyoming",
+                "county": "Campbell County",
+                "city": "Wright"
+            }
+        }
+    ]
+}
