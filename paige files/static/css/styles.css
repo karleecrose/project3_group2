@@ -1,24 +1,4 @@
-/* Add the styles from CodePen */
-.title {
-  font-family: 'Arial', sans-serif;
-  font-size: 48px;
-  color: #ffcc00;
-  text-align: center;
-  animation: fadeIn 3s ease-in-out infinite alternate;
-}
-
-@keyframes fadeIn {
-  from {
-      opacity: 0;
-      transform: scale(0.95);
-  }
-  to {
-      opacity: 1;
-      transform: scale(1);
-  }
-}
-
-/* Existing styles */
+/* General styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -47,12 +27,16 @@ main {
   align-items: center;
 }
 
-/* Make the map larger */
+#map {
+  height: 600px;
+  width: 100%;
+  border: 2px solid #333;
+}
+
 #map.large-map {
   width: 90%;
   height: 70vh; /* Make the map take up 70% of the viewport height */
   max-width: 1000px;
-  border: 2px solid #333;
 }
 
 section {
@@ -83,56 +67,62 @@ footer {
   padding: 10px;
 }
 
-
-header {
-  background-color: #333;
-  color: rgb(163, 9, 9);
-  padding: 20px;
+/* Title animation */
+.title {
+  font-family: 'Bahnschrift Condensed', 'Poppins', sans-serif;
+  font-size: 48px;
+  color: #ffcc00;
   text-align: center;
+  animation: fadeIn 3s ease-in-out infinite alternate;
 }
 
-header h1 {
-  margin: 0;
-  font-family: 'Georgia', serif;
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: scale(0.95);
+  }
+  to {
+      opacity: 1;
+      transform: scale(1);
+  }
 }
 
-main {
-  flex: 1;
+.main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-#map {
-  width: 90%;
-  max-width: 1000px;
-  border: 2px solid #333;
-}
-
-section {
-  padding: 20px;
-  color: #333;
-  font-family: 'Verdana', sans-serif;
-}
-
-h2, h3 {
-  color: #d9534f;
+  text-align: center;
+  padding: 50px;
+  gap: 20px;
 }
 
 p {
-  color: #5a5a5a;
+  font-size: 1em;
+  line-height: 1.8em;
+  padding: 0.2em;
 }
 
-ul {
-  color: #2c3e50;
-  line-height: 1.6;
+@media screen and (max-width: 500px) {
+  body {
+      font-size: 14px;
+  }
 }
 
-footer {
-  background-color: #333;
-  color: rgb(155, 6, 6);
-  text-align: center;
-  padding: 10px;
+/* Footer Image and Gradient */
+.footer-image {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: url('assets/photo1jpg.jpg') no-repeat center center;
+  background-size: cover;
 }
 
-  
+.footer-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}

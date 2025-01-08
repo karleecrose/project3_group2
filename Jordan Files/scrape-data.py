@@ -1,4 +1,8 @@
-import os, json, grequests, requests, functools
+import os
+import json
+import grequests
+import requests
+import functools
 
 SEARCH_LIMIT = 10000
 REQUEST_BATCH_SIZE = 50
@@ -17,18 +21,19 @@ CASE_TYPES = {
 
 completedCases = 0
 
-
 def main():
-    print("Fetching states\n")
+    print("Starting script...")
+    print("Fetching states")
     states = requests.get(STATE_ENDPOINT, headers={"User-Agent": USER_AGENT}).json()
+    print("States fetched")
 
     for caseType in CASE_TYPES:
-        print("Collecting: {type}".format(type=caseType))
+        print(f"Collecting: {caseType}")
 
         global completedCases
         completedCases = 0
 
-        print(" > Fetching case identifiers")
+        print("Fetching case identifiers")
         searchRequests = (
             grequests.post(
                 SEARCH_ENDPOINT.format(type=caseType),
@@ -57,52 +62,47 @@ def main():
             [],
         )
 
-        print(" > Found %d cases" % len(cases))
+        print(f"Found {len(cases)} cases")
 
-        print(" > Creating output file")
+        print("Creating output file")
         filePath = DATA_OUTPUT.format(type=caseType)
         os.makedirs(os.path.dirname(filePath), exist_ok=True)
-        outputFile = open(filePath, "w")
-        outputFile.write("[")
+        with open(filePath, "w", encoding="utf-8") as outputFile:
+            outputFile.write("[")
 
-        print(" > Starting case processing")
-        caseRequests = (
-            grequests.get(
-                CASE_ENDPOINT.format(type=caseType, case=case["namus2Number"]),
-                hooks={"response": requestFeedback},
-                headers={"User-Agent": USER_AGENT},
-            )
-            for case in cases
-        )
-
-        caseRequests = grequests.map(caseRequests, size=REQUEST_BATCH_SIZE)
-        for index, case in enumerate(caseRequests):
-            if not case:
-                print(
-                    " > Failed parsing case: {case} index {index}".format(
-                        case=cases[index], index=index
-                    )
+            print("Starting case processing")
+            caseRequests = (
+                grequests.get(
+                    CASE_ENDPOINT.format(type=caseType, case=case["namus2Number"]),
+                    hooks={"response": requestFeedback},
+                    headers={"User-Agent": USER_AGENT},
                 )
-                continue
-
-            outputFile.write(
-                case.text + ("," if ((index + 1) != len(caseRequests)) else "")
+                for case in cases
             )
 
-        print(" > Closing output file")
-        outputFile.write("]")
-        outputFile.close()
+            caseRequests = grequests.map(caseRequests, size=REQUEST_BATCH_SIZE)
+            for index, case in enumerate(caseRequests):
+                if not case:
+                    print(f"Failed parsing case: {cases[index]} index {index}")
+                    continue
+
+                outputFile.write(
+                    case.text + ("," if ((index + 1) != len(caseRequests)) else "")
+                )
+
+            print("Closing output file")
+            outputFile.write("]")
         print()
 
     print("Scraping completed")
 
-
 def requestFeedback(response, **kwargs):
     global completedCases
-    completedCases = completedCases + 1
+    completedCases += 1
 
     if completedCases % REQUEST_FEEDBACK_INTERVAL == 0:
-        print(" > Completed {count} cases".format(count=completedCases))
+        print(f"Completed {completedCases} cases")
 
+if __name__ == "__main__":
+    main()
 
-main()

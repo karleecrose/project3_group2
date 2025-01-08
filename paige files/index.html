@@ -9,20 +9,89 @@
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="static/js/logic.js" defer></script>
     <script src="https://unpkg.com/@turf/turf/turf.min.js"></script>
+    <style>
+        body {
+            background-color: black; /* Set the page background color to black */
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .header-image {
+            position: relative;
+            width: 100%;
+            height: 400px; /* Adjust the height as needed */
+            background: url('assets/cave-ceiling-erica-darknell-.jpg') no-repeat center center;
+            background-size: cover;
+        }
+        .gradient-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+        }
+        .header-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+        }
+        .content {
+            padding: 20px;
+            color: white; /* Ensure the text is readable on a black background */
+        }
+        h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        .main {
+            padding: 20px;
+            color: white;
+            font-family: 'Poppins', sans-serif; /* Adding the Google Font */
+        }
+        .footer-image {
+            position: relative;
+            width: 100%;
+            height: auto;
+            background: url('assets/photo1jpg.jpg') no-repeat center center;
+            background-size: cover;
+        }
+        .footer-gradient {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+        }
+        @media screen and (max-width: 500px) {
+            body {
+                font-size: 14px;
+            }
+        }
+    </style>
+
 </head>
 <body>
-    <header>
-        <h1 class="title">Vanishing Underground</h1>
-        <p>Are people missing in the caves?</p>
-    </header>
+    <div class="header-image">
+        <div class="gradient-overlay"></div>
+        <div class="header-content">
+            <h1 class="title">Vanishing Underground</h1>
+            <p>Are people missing in the caves?</p>
+        </div>
+    </div>
     <main>
         <div id="map" class="large-map"></div>
-        <section>
-            <h2>Mysteriously vanishing</h2>
-            <p>People go missing without a trace, never to be seen again. Unsolved, the missing people are left behind. Unable to be with their friends and family again. Years go by, people speculate abductions or aliens. The answer could be under our very noses.</p>
+        <section class="content">
+            <h2>Appalachian States</h2>
+            <p>Alabama, Georgia, Kentucky, Maryland, Mississippi, 
+                New York, North Carolina, Ohio, Pennsylvania, 
+                South Carolina, Tennessee, Virginia, West Virginia</p>
             
             <!-- Adding an image -->
-            <img src="assets/rockin-through_1.jfif" alt="cave man" style="width:800px;height:auto;">
+            <img src="assets/rockin-through_1.jfif" alt="Cave man" style="width:800px;height:auto;">
 
             <h3>Cave Facts</h3>
             <ul>
@@ -46,18 +115,20 @@
                 <li>Sea caves – formed by sea water corrosion</li>
             </ul>
             <p><em>Source: 15 Cool Facts About Caves (That aren’t obvious) – startcaving.com</em></p>
+
+            <!-- Adding the state chart image under the paragraphs -->
+            <img src="assets/state_chart.png" alt="State Chart" style="width:800px;height:auto;">
+
+            <!-- Adding the biological sex distribution image -->
+            <img src="assets/Biological_Sex_Distribution.png" alt="Biological Sex Distribution" style="width:800px;height:auto;">
+
         </section>
     </main>
     <footer>
+        <div class="footer-image">
+            <div class="footer-gradient"></div>
+        </div>
         <p>&copy; 2024 Paige Manguiat, Karlee Crose, Jordan Graves, Shanice Cummings. All rights reserved.</p>
     </footer>
-    <script>
-        // JavaScript for the animated text effect
-        document.addEventListener('DOMContentLoaded', function () {
-            const title = document.querySelector('.title');
-            title.classList.add('animate');
-        });
-    </script>
 </body>
 </html>
-
