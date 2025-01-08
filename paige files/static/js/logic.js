@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Initialize the map
-    var map = L.map('map').setView([37.7749, -82.6381], 5);
+    var map = L.map('map').setView([37.8, -96.9], 5); // Center of the US
 
     // Define base map with a dark theme
     var darkMap = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
@@ -43,7 +43,13 @@ document.addEventListener('DOMContentLoaded', function () {
                         fillOpacity: 0.8
                     }).bindPopup(`
                         <strong>Case ID:</strong> ${feature.properties.case_id}<br>
-                        <strong>State:</strong> ${feature.properties.state}
+                        <strong>Status:</strong> ${feature.properties.status}<br>
+                        <strong>State:</strong> ${feature.properties.state}<br>
+                        <strong>City:</strong> ${feature.properties.city}<br>
+                        <strong>County:</strong> ${feature.properties.county}<br>
+                        <strong>Date Found:</strong> ${feature.properties.date_found}<br>
+                        <strong>Found on Tribal Land:</strong> ${feature.properties.found_on_tribal_land}<br>
+                        <strong>Circumstances of Recovery:</strong> ${feature.properties.circumstances_of_recovery}
                     `);
                 }
             }).addTo(missingPeople);
@@ -146,6 +152,39 @@ document.addEventListener('DOMContentLoaded', function () {
         })
         .catch(error => console.log('Error fetching caves data:', error));
 
+    // Create a rivers layer
+    var rivers = L.layerGroup();
+
+    // USGS National Map API URL for hydrography (rivers and streams)
+    let url = "https://hydro.nationalmap.gov/arcgis/rest/services/nhd/MapServer/1/query?where=1%3D1&outFields=*&f=geojson";
+
+    // Fetching and adding GeoJSON data for rivers
+    fetch(url)
+    .then(response => response.json())
+    .then(data => {
+        if (data && data.features) {
+            L.geoJson(data, {
+                pointToLayer: function (feature, latlng) {
+                    return L.circleMarker(latlng, {
+                        radius: 6,
+                        fillColor: "#00BFFF",
+                        color: "#1E90FF",
+                        weight: 1,
+                        opacity: 1,
+                        fillOpacity: 0.8
+                    }).bindPopup(`
+                        <strong>River:</strong> ${feature.properties.GNIS_NAME || 'Unknown'}<br>
+                        <strong>Feature ID:</strong> ${feature.properties.FEATUREID}
+                    `);
+                }
+            }).addTo(rivers);
+            rivers.addTo(map);
+        } else {
+            console.error("Data format is not correct:", data);
+        }
+    })
+    .catch(error => console.error("Error fetching data:", error));
+
     // Define base maps and overlay maps
     var baseMaps = {
         "Dark Map": darkMap
@@ -155,44 +194,10 @@ document.addEventListener('DOMContentLoaded', function () {
         "Missing People": missingPeople,
         "NamUs Scrape": namusScrape,
         "Unidentified Persons": unidentified,
-        "Caves": caves
+        "Caves": caves,
+        "Rivers": rivers
     };
 
     // Add layer controls to the map
     L.control.layers(baseMaps, overlayMaps).addTo(map);
-});
-
-// Flashlight effect JavaScript code
-let mouseX = 0;
-let mouseY = 0;
-let flashlightOn = false; // Initially off
-
-let flashlight = document.getElementById("flashlight");
-const isTouchDevice = () => {
-    try {
-        document.createEvent("TouchEvent");
-        return true;
-    } catch (e) {
-        return false;
-    }
-};
-
-function getMousePosition(e) {
-    if (flashlightOn) {
-        mouseX = !isTouchDevice() ? e.pageX : e.touches[0].pageX;
-        mouseY = !isTouchDevice() ? e.pageY : e.touches[0].pageY;
-
-        flashlight.style.setProperty("--Xpos", mouseX + "px");
-        flashlight.style.setProperty("--Ypos", mouseY + "px");
-    }
-}
-
-document.addEventListener("mousemove", getMousePosition);
-document.addEventListener("touchmove", getMousePosition);
-
-document.addEventListener("keydown", function (e) {
-    if (e.key === "Enter" || e.key === " ") { // Allow both Enter and Space keys
-        flashlightOn = !flashlightOn;
-        flashlight.style.display = flashlightOn ? "block" : "none";
-    }
 });

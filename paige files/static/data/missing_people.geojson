@@ -1,4 +1,1765 @@
 {
     "type": "FeatureCollection",
-    "features": []
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.3209689,
+                    32.0378487
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca594b",
+                "state": "Arizona",
+                "city": "SW of Pisinemo",
+                "county": "Pima County",
+                "date_found": "2020-02-07",
+                "found_on_tribal_land": "Yes",
+                "circumstances_of_recovery": "Mandible was discovered in a remote desert area by USBP",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.7397195,
+                    32.26553550000001
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca59a6",
+                "state": "Arizona",
+                "city": "Why",
+                "county": "Pima County",
+                "date_found": "2020-02-13",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "Isolated cranium and mandible discovered by humanitarian group in remote desert area. (USBP)",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.6660725,
+                    32.057499
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca5b09",
+                "state": "Arizona",
+                "city": null,
+                "county": "Pima County",
+                "date_found": "2020-06-15",
+                "found_on_tribal_land": "Yes",
+                "circumstances_of_recovery": "Skeletonized cranium and mandible recovered from remote desert area on Tohono O'odham Nation.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.0846535,
+                    33.3467281
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca5b38",
+                "state": "Arizona",
+                "city": "South Mountain",
+                "county": "Pima County",
+                "date_found": "2020-03-08",
+                "found_on_tribal_land": "Yes",
+                "circumstances_of_recovery": "Incomplete skeletonized remains found in remote desert area by humanitarian worker. Individual appears to have hereditary disease known as \"multiple hereditary exostoses\" which affected their skeleton, including arms and legs",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.3090706,
+                    31.7867208
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca5b58",
+                "state": "Arizona",
+                "city": "Papago Farms",
+                "county": "Pima County",
+                "date_found": "2020-06-09",
+                "found_on_tribal_land": "Yes",
+                "circumstances_of_recovery": "Skeletonized remaims discovered by USBP in a remote desert area on Tohono O'odham Nation. No identification or personal effects recovered.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.6059776,
+                    32.250618
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca5bcc",
+                "state": "Arizona",
+                "city": "Charco Village",
+                "county": "Pima County",
+                "date_found": "2009-10-15",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "Remains found by USBP Air patrol, on a mountain top within the Tohono O'Odham Reservation.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.881234,
+                    31.9120215
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca5db0",
+                "state": "Arizona",
+                "city": "Sells",
+                "county": "Pima County",
+                "date_found": "2021-02-15",
+                "found_on_tribal_land": "Yes",
+                "circumstances_of_recovery": "Isolated skull discovered by Tribal member on Tohono O'odham Nation in remote desert area.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.0645359,
+                    31.70786579999999
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca5f47",
+                "state": "Arizona",
+                "city": "Amado",
+                "county": "Pima County",
+                "date_found": "2008-12-06",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "Skeletal remains found in desert area.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.5915665,
+                    33.6670615
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca6094",
+                "state": "Arkansas",
+                "city": "Hope",
+                "county": "Hempstead County",
+                "date_found": "1982-09-15",
+                "found_on_tribal_land": "Unknown",
+                "circumstances_of_recovery": "These remains were found by a farmer in a field off of Highway 67.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.7444411,
+                    34.5577721
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca60e9",
+                "state": "California",
+                "city": "Amboy",
+                "county": "San Bernardino County",
+                "date_found": "1975-04-27",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "Skeletal remains found in shallow, rock-covered, grave.  Designated \"John Doe #05-75.\"  Identity may only be established with dental X-rays, head X-rays, and DNA (refer to CODIS #BK-05-000844).  Possible comparison with \"smiling photographs\" or \"talking video\" (showing teeth).",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.2088167,
+                    34.2693794
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca60ff",
+                "state": "California",
+                "city": "Lake Arrowhead",
+                "county": "San Bernardino County",
+                "date_found": "1972-02-12",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "The skull (no mandible) is believed to be that of a male adult, probably White, age greater than 18 years, but no more than 60.  The skull had been buried for some time in highly-mineralized dark earth.  The face is described as \u00e2\u20ac\u0153prominent,\u00e2\u20ac\u009d particularly the nose structure.  There are numerous dental modifications, with a gold third molar and a Caribelli\u00e2\u20ac\u2122s cusp to the upper left first molar.  Identity may only be established with dental X-rays (on file and see attached), head X-rays, and DNA (refer to CODIS #BK-07-000910).  Possible comparison with \"smiling photographs\" or \"talking video\" (showing teeth).",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.6589752,
+                    34.2363809
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca6120",
+                "state": "California",
+                "city": "Mount Baldy",
+                "county": "Los Angeles County",
+                "date_found": "1979-03-28",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "On 3/29/1979 a headless torso was found off a roadway on Mount Baldy by two hikers.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.442596,
+                    34.2252697
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca613d",
+                "state": "California",
+                "city": "Los Angeles",
+                "county": "Los Angeles County",
+                "date_found": "1988-05-04",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "BURIED SKULL, N0 0THER B0NES F0UND AT TIME 0F EXCAVATI0N",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.2554498,
+                    34.1585191
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca6143",
+                "state": "California",
+                "city": "San Bernardino",
+                "county": "San Bernardino County",
+                "date_found": "1987-03-09",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "Skeletal remains found scattered in a remote ravine northeast of San Bernardino.  Identity can only be established by dental X-rays or DNA.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.1605874,
+                    34.410838
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca6192",
+                "state": "California",
+                "city": "Angeles National Forest",
+                "county": "Los Angeles County",
+                "date_found": "2003-03-27",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "A skeletonized body was found after a brush fire in Angeles National Forest.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.1858759,
+                    34.5008311
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca6196",
+                "state": "California",
+                "city": "Apple Valley",
+                "county": "San Bernardino County",
+                "date_found": "1979-10-27",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "Skeletal remains, designated \"John Doe #24-79,\" found scattered in rock formation.  Facial portion of skull missing.  Identity may only be established with dental X-rays (on file and see attached), head X-rays, and DNA (refer to CODIS #BK-05-000634).  Possible comparison with \"smiling photographs\" or \"talking video\" (showing teeth).",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.1239717,
+                    34.2103962
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca61be",
+                "state": "California",
+                "city": "Altadena",
+                "county": "Los Angeles County",
+                "date_found": "2004-09-19",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "Incomplete skeletal remains were found in a canyon in Altadena, California (Los Angeles County) on 9/19/2004.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.9834738,
+                    34.0812006
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca61ef",
+                "state": "California",
+                "city": "Irwindale",
+                "county": "Los Angeles County",
+                "date_found": "2014-02-13",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "On 02/13/2014 @ 1720 hours these skeletal remains were found in the brush area of a dry riverbed.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -124.1111791,
+                    41.0359583
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca629a",
+                "state": "California",
+                "city": "Westhaven",
+                "county": "Humboldt County",
+                "date_found": "1991-02-22",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "Partial Skeletal Human Mandible w/1 tooth found on Moonstone Beach, Westhaven, Ca.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.0376023,
+                    34.2163937
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca6333",
+                "state": "California",
+                "city": "Camarillo",
+                "county": "Ventura County",
+                "date_found": "2022-08-12",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "A Search and Rescue team in search of a missing person, found skeletal remains  in a citrus orchard off of Camarillo Springs Road in Camarillo.  The remains were found near a cash register with the faded date (possibly 06 02 13), three pairs of jeans, a blue glass bottle with the engraving \"Bromo- Seltzer Emerson Drug Co Baltimore, MD\" on it and a partially buried hub cap.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.0739073,
+                    35.2675155
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca636e",
+                "state": "California",
+                "city": "Baker",
+                "county": "San Bernardino County",
+                "date_found": "1970-11-28",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "Skeletal remains, designated \"John Doe #06-70,\" found scattered in the desert of Cronise Valley, south of Baker, CA.  Full upper and lower dentures found at scene and mandible (no skull found).  Information developed at scene indicated that decedent may be \"J.H. Mollenaar.\"  Identity can only be established by DNA.  Currently only partial DNA profile can be developed (2 locus STR).  California lab attempting to develop mtDNA).",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.1678543,
+                    34.1406082
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca6372",
+                "state": "California",
+                "city": "Pasadena",
+                "county": "Los Angeles County",
+                "date_found": "2002-01-01",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "The skeletonized decedent was found near the Arroyo Seco in Pasadena on 01/01/2002.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.6141315,
+                    34.8480597
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca6412",
+                "state": "California",
+                "city": "Needles",
+                "county": "San Bernardino County",
+                "date_found": "1976-02-21",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "Skeletal remains found scattered along, and partially buried in a desert wash at base of Ship Mountain; 10 miles southeast of Danby (Needles).  Designated \"John Doe #04-76.\"  Maxillary portion not located; mandible found.  Identity may only be established with dental X-rays (lower), head X-rays, and DNA (refer to CODIS #BK-05-000850).  Possible comparison with \"smiling photographs\" or \"talking video\" (showing lower teeth).",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.2436849,
+                    34.0522342
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca6416",
+                "state": "California",
+                "city": "Los Angeles",
+                "county": "Los Angeles County",
+                "date_found": "1981-02-23",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "Partial skeleton found at the bottom of a cliff",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.5127662,
+                    34.51999730000001
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca6469",
+                "state": "California",
+                "city": "Cadiz",
+                "county": "San Bernardino County",
+                "date_found": "1985-12-10",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "Skeletal remains reportedly found in the Cadiz dry lake area. Estimated to be 17 to 25 years of age. No skull or mandible found.  Identity may only be established with DNA (refer to CODIS #BK-07-000931 - STR profile uploaded to CODIS 02/08/11).",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.6589752,
+                    34.2363809
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca659c",
+                "state": "California",
+                "city": "Mount Baldy",
+                "county": "San Bernardino County",
+                "date_found": "1989-11-08",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "Skeletal remains, designated \"John Doe #47-89,\" found on mountainside.  Identity may only be established with dental X-rays and DNA (refer to CODIS #BK-08-001016).",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.2511876,
+                    34.3752755
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca65d3",
+                "state": "California",
+                "city": "Angeles National Forest",
+                "county": "Los Angeles County",
+                "date_found": "2007-12-20",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "Found by Hiker in Angeles National Forest.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.2511876,
+                    34.3752755
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca65d4",
+                "state": "California",
+                "city": "Angeles National Forest",
+                "county": "Los Angeles County",
+                "date_found": "1994-12-04",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "On 12/04/1994 skeletal remains were found at Pigeons Ridge Hunting Area in the Angeles National Forest.  On 12/21/1999 skull additional bones were found at the location.  In June 2020 DNA linked the two cases.  Cases have been consolidated under coroner case 1994-10330 and UP3381.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.1967418,
+                    34.469994
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca65f9",
+                "state": "California",
+                "city": "Acton",
+                "county": "Los Angeles County",
+                "date_found": "1976-08-01",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "BODY FOUND IN THE DESERT AREA. \nNo photographs, dental charting, dental radiographs, fingerprints, body x-rays, or DNA is available.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.6610854,
+                    34.1036996
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca6602",
+                "state": "California",
+                "city": "Upland",
+                "county": "San Bernardino County",
+                "date_found": "1999-09-20",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "The skeletal remains of John Doe #23-99 were found when after a brush fire burned through a field in Upland.  The remains had been skeletonized for years prior to the fire.  A victim of homicide, the remains are those of a male adult, between 18 and 35 years of age, between 5\u00e2\u20ac\u21226\u00e2\u20ac\u009d and 5\u00e2\u20ac\u212210\u00e2\u20ac\u009d.  Race could not be determined.  Identity may only be established with dental X-rays.  CA DOJ-DNA unable to develop a profile.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2538557,
+                    37.4299388
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca677b",
+                "state": "California",
+                "city": "Woodside",
+                "county": "San Mateo County",
+                "date_found": "2022-09-26",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "On 09/26/2022, partially skeletonized remains were discovered in a wooded area on residential property in Woodside, CA. The remains were clothed and found partially wrapped in a blanket. It appeared the decedent may have been transient and was sleeping in this location.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.0353449,
+                    34.1397292
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca6803",
+                "state": "California",
+                "city": "Arcadia",
+                "county": "Los Angeles County",
+                "date_found": "1956-02-05",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "On 2/5/1956 two boys found  part of a human body at the Santa Anita Wash. The boys contacted Arcadia Police Department and led officers to the decedent. Arcadia PD contacted the Los Angeles Sheriff's Department. No identification was found with the body. The decedent was not ID viewable.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.0735241,
+                    33.0013938
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca68c4",
+                "state": "California",
+                "city": "San Diego",
+                "county": "San Diego County",
+                "date_found": "2004-05-04",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "The decedent is currently an unidentified male child, between the ages of 2.5 to 3.5 years. On 05/04/04, the skeletal remains were found by hikers in a wooded area of Rancho Bernardo. The skeletal remains were in a travel type bag that appeared to have been dumped in the area. The postmortem interval was over a year.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.2643567,
+                    33.7241323
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca6921",
+                "state": "California",
+                "city": "San Pedro",
+                "county": "Los Angeles County",
+                "date_found": "1993-02-19",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "DECEDENT WASHED ASH0RE AT CABRILL0 BEACH.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.61481,
+                    34.2710376
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca6922",
+                "state": "California",
+                "city": "Chatsworth",
+                "county": "Los Angeles County",
+                "date_found": "1993-10-28",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "REMAINS F0UND IN CHATSW0RTH PARK AREA",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.0654445,
+                    34.3579404
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca69bf",
+                "state": "California",
+                "city": "Palmdale",
+                "county": "Los Angeles County",
+                "date_found": "1990-02-20",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "DECEDENT WAS F0UND 0N 2-20-90 AT 1200 H0URS, Found under an olive tree over the embankment in the Angeles National Forest near Emma Rd & Alpine Springs.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4194155,
+                    37.7749295
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca69e2",
+                "state": "California",
+                "city": null,
+                "county": "San Francisco County",
+                "date_found": "1985-10-19",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "The subject was spotted by Pleasure Craft Tide Water floating in water of the Pacific Ocean near Muir Beach.  The coast guard was informed and they retrieved the subject, bringing it to Ft. Point Coast Guard Station in San Francisco.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4194155,
+                    37.7749295
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca69e3",
+                "state": "California",
+                "city": "San Francisco",
+                "county": "San Francisco County",
+                "date_found": "1979-06-26",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "The subject was spotted floating in the waters of the San Francisco bay by a fire watchmen for Bethlehem Steel Company",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.5447787,
+                    34.0845245
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca6a84",
+                "state": "California",
+                "city": "Los Angeles",
+                "county": "Los Angeles County",
+                "date_found": "2002-08-06",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "Groundskeepers clearing brush near the Getty Center located skeletonized human remains on 8/6/2002.  \nNear the remains was a motorcycle - a Black Honda CB350. The motorcycle was manufactured between 1968 and 1973 and the VIN was not valid. On the motorcycle was a \"Alameda 12th Naval District\" sticker.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.2436596,
+                    34.0522265
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca6aa0",
+                "state": "California",
+                "city": null,
+                "county": "Los Angeles County",
+                "date_found": "2002-01-27",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "REMAINS 0RIGINALLY F0UND 01-22-2002 & REP0RTED T0 LAW ENF0RCEMENT; H0WEVER THE SITE C0ULD N0T BE L0CATED, REMAINS LATERF0UND 0N 01-27-2002,",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.2935891,
+                    34.1220545
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca6aac",
+                "state": "California",
+                "city": "Los Angeles",
+                "county": "Los Angeles County",
+                "date_found": "1987-11-13",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "On 1/21/1991 @ 1400 hours numerous loose bones were found scattered along a hillside in a park. They later matched via DNA to a skull found in the Griffith Park area.  Thus, the date body found was updated to 11/13/87.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.1494187,
+                    39.1546137
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca6bba",
+                "state": "California",
+                "city": "Williams",
+                "county": "Colusa County",
+                "date_found": "1976-04-02",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "Skeleton remains found in an irrigation ditch, approximately 1.5 miles west of Williams, California, off State Route 20. The remains were partially wrapped in a yellowish colored fabric, believed to have covered the body completely at one time.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -108.4869555,
+                    39.0303696
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca6c83",
+                "state": "Colorado",
+                "city": "Grand Junction",
+                "county": "Mesa County",
+                "date_found": "1993-08-22",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "On 08/22/1993, partial skeletal remains were found near Promontory Point and the Redlands Canal.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.01614359999999,
+                    38.8372336
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca6d1a",
+                "state": "District of Columbia",
+                "city": "Washington",
+                "county": "District of Columbia",
+                "date_found": "2010-11-06",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "Bones were found scattered in a wooded area.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.3878709,
+                    28.5552719
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca6d65",
+                "state": "Florida",
+                "city": "Brooksville",
+                "county": "Hernando County",
+                "date_found": "2000-05-22",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "Found on Palmdale Road, approximately 40 to 50 yards west of US 19 in Brooksville, Florida",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.1917902,
+                    25.7616798
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca6dc5",
+                "state": "Florida",
+                "city": "Miami",
+                "county": "Miami-Dade County",
+                "date_found": "1971-04-09",
+                "found_on_tribal_land": "Unknown",
+                "circumstances_of_recovery": "Remains found on the south end of Elliot Key.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.42789839999999,
+                    26.069985
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca6df3",
+                "state": "Florida",
+                "city": null,
+                "county": "Collier County",
+                "date_found": "1988-08-23",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": null,
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.365865,
+                    26.190096
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca6ee8",
+                "state": "Florida",
+                "city": "Broward",
+                "county": "Broward County",
+                "date_found": "1986-11-18",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "DET SCARBR0UGH REC0VERED SKULL AND B0NES AT 60 MILE MARKER ALLIGAT0R ALLEY",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.6326916,
+                    25.5516034
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca6f14",
+                "state": "Florida",
+                "city": null,
+                "county": "Miami-Dade County",
+                "date_found": "1987-08-13",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "The deceased was discovered floating in the water on the north side of Bayside. Decedent appears to be a Black or Hispanic male.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.51062879999999,
+                    29.4302514
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca6f43",
+                "state": "Florida",
+                "city": "Crescent City",
+                "county": "Putnam County",
+                "date_found": "2022-10-16",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "Found in a wooded area by a hunter.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.23310359999999,
+                    26.1275862
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca6f9f",
+                "state": "Florida",
+                "city": "Plantation",
+                "county": "Broward County",
+                "date_found": "2005-12-16",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "Found in a drainage pipe in an empty lot.  Personal Effects: Hand trimmer, knife blade, bottle, plastic bags\nWearing \"Old Navy\" brand jeans and nylon windbreaker.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.3831561,
+                    28.0007147
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca6fbb",
+                "state": "Florida",
+                "city": "Tampa",
+                "county": "Hillsborough County",
+                "date_found": "2002-10-08",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "skull originally found in 01/1998 and DNA matched these remains (02-05365).",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.46085599999999,
+                    28.4630493
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca70a8",
+                "state": "Florida",
+                "city": "Orlando",
+                "county": "Orange County",
+                "date_found": "2023-05-20",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "Unidentified skeletal remains located in the woods on I-4 WB and SR 528 by construction worker in area.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -157.8689014,
+                    21.3644294
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca71c5",
+                "state": "Hawaii",
+                "city": "Honolulu",
+                "county": "Honolulu County",
+                "date_found": "2019-08-03",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "Discovered by fishermen floating supine in ocean waters off of Lagoon Drive in an advanced state of decomposition and was pronounced dead on scene",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.6297982,
+                    41.8781136
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca7253",
+                "state": "Illinois",
+                "city": "Chicago",
+                "county": "Cook County",
+                "date_found": "2022-04-28",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "discovered in a grassy field located at 9900 South Harper Avenue in Chicago, Illinois.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.663045,
+                    41.9703133
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca7263",
+                "state": "Illinois",
+                "city": "Chicago",
+                "county": "Cook County",
+                "date_found": "1999-12-28",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "Found under the back porch of a residence in the 900 Block of West Lawrence.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.78117449999999,
+                    30.2751945
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca74bb",
+                "state": "Louisiana",
+                "city": "Slidell",
+                "county": "St. Tammany Parish",
+                "date_found": "2019-03-14",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "Possible disturbed burial. Curated at Slidell Memorial Hospital for over 40 years prior to anthropological and DNA analyses. \"Date body found\" refers to the date that Coroner's office requested an anthropological analysis. No information about initial discovery or context.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.0457538,
+                    42.331427
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca777c",
+                "state": "Michigan",
+                "city": "Detroit",
+                "county": "Wayne County",
+                "date_found": "1987-03-23",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "The body of a black female was found at a trash incinerator site in the city of Detroit.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.0457538,
+                    42.331427
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca77d7",
+                "state": "Michigan",
+                "city": "Detroit",
+                "county": "Wayne County",
+                "date_found": "2007-08-14",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "Body was found in the Detroit River-Possible drowning victim.  It appeared to have been in the water for several weeks to months.  The Anthropologist noted that this person was probably Black, but may have had some white admixture as pertaining to his race.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.4856913,
+                    44.4587227
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca77f8",
+                "state": "Michigan",
+                "city": "Oscoda",
+                "county": "Iosco County",
+                "date_found": "2017-07-28",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "Partial jaw bone located on Lake Huron beach. The bone was located on the beach approximately 20 feet west of the water's edge approximately 30 feet south of the boardwalk leading to the beach. The bone was in the sand mixed with some dry weeds and small sticks.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.46967649999999,
+                    38.9752926
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca7964",
+                "state": "Missouri",
+                "city": "Kansas City",
+                "county": "Jackson County",
+                "date_found": "1981-05-16",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "Remains were found on George Rd, just north of Noland Rd (KCMO) by a stranger while looking for firewood in a desolate area. The finder removed the remains off the roadway and placed them in a box and took them home. That is when he notified police. He removed the remains because he was afraid dogs would carry them off. No one was seen at or near the recovery site when remains were found.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.2956118,
+                    36.2684007
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca79db",
+                "state": "Nevada",
+                "city": "Las Vegas",
+                "county": "Clark County",
+                "date_found": "1983-09-17",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "On 09/17/1983, these skeletal remains were discovered in a desert wash at the west end of Ann Rd. A .22 semi-automatic pistol was recovered from the scene. Based on clothing recovered, it is believed that the decedent's death took place during the winter time. It was suggested that during the decedent's younger years he was probably around 5'10\" but due to severe arthritis, his stature at the time of his death was around 5'8\". The decedent also had extensive gold bridgework and numerous porcelain facings that would have been very expensive.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.1770586,
+                    36.2137322
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca7aa0",
+                "state": "Nevada",
+                "city": "Las Vegas",
+                "county": "Clark County",
+                "date_found": "1983-07-26",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "On 07/26/1983, these skeletal remains were found scattered in the desert area 1.5 miles southeast of Craig Rd. and 1/4 mile east of Highland Dr. A burned mattress and charred skull were found at the site. Charred bone fragments were found beneath the mattress.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.4229266,
+                    39.3642834
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca7b35",
+                "state": "New Jersey",
+                "city": "Atlantic City",
+                "county": "Atlantic County",
+                "date_found": "1988-04-30",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "Body found in inland waterway of Atlantic City, NJ.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.7351513,
+                    39.7775775
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca7b96",
+                "state": "New Jersey",
+                "city": "Shamong Township",
+                "county": "Burlington County",
+                "date_found": "1979-12-07",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "Found in wooded area of Shamong Township, NJ.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1895576,
+                    39.3262153
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca7b9f",
+                "state": "New Jersey",
+                "city": "Lawrence",
+                "county": "Cumberland County",
+                "date_found": "1979-11-21",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "Found in wooded area near county road #629 of Lawrence Township, NJ, Cumberland County, NJ.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.8648268,
+                    40.8447819
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca7d6c",
+                "state": "New York",
+                "city": "Bronx",
+                "county": "Bronx County",
+                "date_found": "2003-09-25",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "Unknown male found in plastic bag on sidewalk of Story Avenue. A passerby had noticed the bag about three weeks prior.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.0092803,
+                    39.9602601
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca83d4",
+                "state": "Ohio",
+                "city": "Columbus",
+                "county": "Franklin County",
+                "date_found": "2021-12-08",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "The John Doe was located near a homeless camp under an overpass. The body was burned beyond recognition and the case is being investigated as a homicide.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.3789389,
+                    41.6894388
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca83d8",
+                "state": "Ohio",
+                "city": null,
+                "county": "Lucas County",
+                "date_found": "2005-11-04",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "On Lake Erie shore behind the Oregon, OH, town water treatment plant in Jerusalem Township.  Found under, between and near rocks at the water's edge.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -95.76971309999999,
+                    34.9334298
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca8417",
+                "state": "Oklahoma",
+                "city": "McAlester",
+                "county": "Pittsburg County",
+                "date_found": "1972-02-25",
+                "found_on_tribal_land": "Yes",
+                "circumstances_of_recovery": "Found near a railroad outside McAlester by a maintenance crew while burning weeds in right-of-way.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.81226579999999,
+                    35.2908947
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca846b",
+                "state": "Oklahoma",
+                "city": "Tuttle",
+                "county": "Grady County",
+                "date_found": "1975-01-18",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "Young male in shallow grave out in an open field 7 miles East and 2 miles North of Tuttle on Highway 37. Body found covered with dirt, lower extremities below the knee were visible above the ground. Owner of property said he had cut the hay in the field the 1st week of October and did not notice the body at that time.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1574567,
+                    39.9559288
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca8580",
+                "state": "Pennsylvania",
+                "city": "Philadelphia",
+                "county": "Philadelphia County",
+                "date_found": "1979-03-17",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "The skeletonized body of a black male was found in a vacant house at 504 N. 11th Street.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.2654063,
+                    39.9372847
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca8664",
+                "state": "Pennsylvania",
+                "city": "Upper Darby",
+                "county": "Delaware County",
+                "date_found": "1981-06-21",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "The body located an open field June 21, 1981, estimated time of date of death four to six days prior.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -67.14699639999999,
+                    18.0875347
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca86b2",
+                "state": "Puerto Rico",
+                "city": "CABO ROJO",
+                "county": "All",
+                "date_found": "2022-07-28",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "FALLECE AHOGADO",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.9868798,
+                    18.3324326
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca87c3",
+                "state": "Puerto Rico",
+                "city": "TRUJILLO ALTO",
+                "county": "All",
+                "date_found": "2024-09-19",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "FOUND CALCINED IN A VEHICLE",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -95.2632201,
+                    29.7597385
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca88ce",
+                "state": "Texas",
+                "city": "Houston",
+                "county": "Harris County",
+                "date_found": "1987-12-07",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "F0UND IN SHIP CHANNEL",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.27607599999999,
+                    32.6765319
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca8ab2",
+                "state": "Texas",
+                "city": "Fort Worth",
+                "county": "Tarrant County",
+                "date_found": "1982-09-12",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "Remains found in 1972 Oldsmobile wagon found submerged in Lake Arlington.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -96.8726295,
+                    32.8621631
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca8be8",
+                "state": "Texas",
+                "city": "Dallas",
+                "county": "Dallas County",
+                "date_found": "1975-10-27",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "Found by a bulldozer driver who passed by/ working in area",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -95.4777811,
+                    30.3213482
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca8c12",
+                "state": "Texas",
+                "city": null,
+                "county": "Montgomery County",
+                "date_found": "1989-10-31",
+                "found_on_tribal_land": null,
+                "circumstances_of_recovery": "F0UND IN W00DED AREA NEAR TEXABA R0AD 0FF FM 1414 IN M0NTG0MERY C0UNTY, TEXAS",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -95.9832577,
+                    28.8204837
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca8e4c",
+                "state": "Texas",
+                "city": null,
+                "county": "Matagorda County",
+                "date_found": "2006-01-03",
+                "found_on_tribal_land": "Unknown",
+                "circumstances_of_recovery": "Skull was found under low tide in Matagorda Bay.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.1633341,
+                    39.1856597
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca90f6",
+                "state": "Virginia",
+                "city": "Winchester",
+                "county": "Frederick County",
+                "date_found": "1991-02-03",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "An unidentified white female was found under brush, leaves and rocks on an undeveloped lot in a subdivision.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.4558151,
+                    37.9287494
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca9129",
+                "state": "Virginia",
+                "city": "Ruther Glen",
+                "county": "Caroline County",
+                "date_found": "1988-11-10",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "Hunters found the skeletal remains of this decedent and of an older male (UP6507) together in woods in Caroline County off VA I-95. DNA testing indicated a possible parent-child relationship. Both are wearing new clothes. Interval between date of death and date found is approximately 2-10 months.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.5424809,
+                    36.6859829
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca9131",
+                "state": "Virginia",
+                "city": "Emporia",
+                "county": "Greensville County",
+                "date_found": "1985-04-25",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "The remains of an unidentified male, likely white/hispanic, were found off a rural highway . He had multiple distinctive tattoos, all in Spanish. Based off the tattoos it was surmised that he likely came from a Cuban background. The interval between date of death and date found is several days to several weeks.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.2733147,
+                    36.8064678
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca916b",
+                "state": "Virginia",
+                "city": "Chesapeake",
+                "county": "Chesapeake City",
+                "date_found": "1983-11-19",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "Human skeletal remains were found in the wooded area at the end of Happy Acres Road in Chesapeake, Virginia. \nInterval between death & discovery, one to four years.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.4008113,
+                    36.94792770000001
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca9173",
+                "state": "Virginia",
+                "city": "Stony Creek",
+                "county": "Sussex County",
+                "date_found": "1948-09-16",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "Remains found in a shallow, makeshift grave by highway workers",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.0026203,
+                    37.3634084
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca91a9",
+                "state": "Virginia",
+                "city": "Sturgeon Point",
+                "county": "Charles City County",
+                "date_found": "1979-08-28",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "Skeletal remains were found along the bank of the James River in Charles City County Virginia.  Interval between death & discovery, several months to two years.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.34522179999999,
+                    37.0298687
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca91ca",
+                "state": "Virginia",
+                "city": "Hampton",
+                "county": "Hampton City",
+                "date_found": "1969-04-10",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "While cutting grass across a marshy area of Langley AFB, a serviceman discovered human skeletal remains & clothing.",
+                "status": "Unidentified Deceased"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.3868797,
+                    37.2103925
+                ]
+            },
+            "properties": {
+                "case_id": "677c16616784a9ba8fca91d1",
+                "state": "Virginia",
+                "city": null,
+                "county": "York County",
+                "date_found": "1972-11-29",
+                "found_on_tribal_land": "No",
+                "circumstances_of_recovery": "Skeletal remains were found in wooded area off Waller Mill Road in York County, Virginia. US coins found with the remains were dated 1967, therefore interval between dead & discovery is five years or less.",
+                "status": "Unidentified Deceased"
+            }
+        }
+    ]
 }
