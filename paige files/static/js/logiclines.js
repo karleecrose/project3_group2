@@ -144,5 +144,9 @@
         };
 
         // Add layer controls to the map
+<<<<<<< HEAD
         L.control.layers(baseMaps, overlayMaps).addTo(map);
 
+=======
+        L.control.layers(baseMaps, overlayMaps).addTo(map);
+>>>>>>> 5c3d4e1 (completed)

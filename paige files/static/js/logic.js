@@ -185,6 +185,7 @@ document.addEventListener('DOMContentLoaded', function () {
     })
     .catch(error => console.error("Error fetching data:", error));
 
+<<<<<<< HEAD
         // Define the layer for distance lines
         var distanceLines = L.layerGroup();
 
@@ -256,18 +257,94 @@ document.addEventListener('DOMContentLoaded', function () {
         var baseMaps = {
             "Dark Map": darkMap
         };
+=======
+    // Define the layer for distance lines
+    var distanceLines = L.layerGroup();
+
+    // Function to load GeoJSON data from a file
+    async function loadGeoJSON(url) {
+        const response = await fetch(url);
+        return await response.json();
+    }
+
+    // Function to find the shortest distance for each point in geojson2 to points in geojson1
+    async function findClosestDistances() {
+        const geojson1 = await loadGeoJSON('static/data/caves.geojson');
+        const geojson2 = await loadGeoJSON('static/data/unidentified.geojson');
+
+        const closestDistances = geojson2.features.map(feature2 => {
+            let closestDistance = Infinity;
+            let closestPoint = null;
+
+            geojson1.features.forEach(feature1 => {
+                const point1 = turf.point(feature1.geometry.coordinates);
+                const point2 = turf.point(feature2.geometry.coordinates);
+                const distance = turf.distance(point1, point2, { units: 'miles' });
+
+                if (distance < closestDistance) {
+                    closestDistance = distance;
+                    closestPoint = feature1;
+                }
+            });
+
+            return {
+                point1: closestPoint,
+                point2: feature2,
+                distance: closestDistance
+            };
+        });
+
+        return closestDistances;
+    }
+
+    // Function to initialize the map and display closest distances
+    async function initializeMap() {
+        const closestDistances = await findClosestDistances();
+
+        // Add base map and layers
+        darkMap.addTo(map);
+        caves.addTo(map);
+        rivers.addTo(map); 
+        missingPeople.addTo(map);
+        namusScrape.addTo(map);
+        unidentified.addTo(map);
+        distanceLines.addTo(map);
+
+        // Display closest distances
+        closestDistances.forEach(({ point1, point2, distance }) => {
+            const marker1 = L.marker(point1.geometry.coordinates.slice().reverse()).addTo(map);
+            const marker2 = L.marker(point2.geometry.coordinates.slice().reverse()).addTo(map);
+
+            marker1.bindPopup(`Closest Distance to Unidentified Point: ${distance.toFixed(2)} miles`);
+            marker2.bindPopup(`Closest Distance to Cave Point: ${distance.toFixed(2)} miles`);
+
+            const line = L.polyline([
+                point1.geometry.coordinates,
+                point2.geometry.coordinates
+            ], { color: 'gray' }).addTo(map);
+        });
+    }
+
+    // Load and display closest distances on the map
+    initializeMap();
+
+>>>>>>> 5c3d4e1 (completed)
     // Define base maps and overlay maps
     var baseMaps = {
         "Dark Map": darkMap
     };
 
     var overlayMaps = {
+<<<<<<< HEAD
         "Missing People": missingPeople,
         "NamUs Scrape": namusScrape,
         "Unidentified Persons": unidentified,
         "Distance Lines": distanceLines, // Add distance lines as an overlay option
+=======
+>>>>>>> 5c3d4e1 (completed)
         "Caves": caves,
-        "Rivers": rivers
+        "Unidentified Remains": unidentifiedRemains,
+        "Distance Lines": distanceLines // Add distance lines as an overlay option
     };
 
     // Add layer controls to the map
