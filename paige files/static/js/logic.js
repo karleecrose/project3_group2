@@ -6,10 +6,6 @@ document.addEventListener('DOMContentLoaded', function () {
         var darkMap = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
             attribution: '&copy; <a href="https://carto.com/">CARTO</a>'
         }).addTo(map);
-    // Define base map with a dark theme
-    var darkMap = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-        attribution: '&copy; <a href="https://carto.com/">CARTO</a>'
-    }).addTo(map);
 
     // Define the Appalachian states
     const appalachianStates = [
@@ -269,13 +265,10 @@ document.addEventListener('DOMContentLoaded', function () {
         "Missing People": missingPeople,
         "NamUs Scrape": namusScrape,
         "Unidentified Persons": unidentified,
-        "Distance Lines": distanceLines // Add distance lines as an overlay option
+        "Distance Lines": distanceLines, // Add distance lines as an overlay option
         "Caves": caves,
         "Rivers": rivers
     };
-
-        // Add layer controls to the map
-        L.control.layers(baseMaps, overlayMaps).addTo(map);
 
     // Add layer controls to the map
     L.control.layers(baseMaps, overlayMaps).addTo(map);
